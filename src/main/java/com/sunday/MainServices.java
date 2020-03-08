@@ -14,7 +14,7 @@ public class MainServices {
     public void sendNotification(UserData userData) {
         SimpleMailMessage mail = new SimpleMailMessage();
         mail.setFrom("deccanbesporty@gmail.com");
-        mail.setTo("syedmubbashir98@gmail.com");
+        mail.setTo("syedmubbashir97@gmail.com");
         mail.setText(userData.getMsg() + "   ->   " + userData.getMail() + "   ->   " + userData.getName());
         mail.setSubject(userData.getSub());
         mail.setReplyTo("deccanbesporty@gmail.com");
