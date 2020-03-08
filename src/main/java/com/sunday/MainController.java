@@ -24,18 +24,18 @@ public class MainController {
     @ResponseBody
     @GetMapping("/name")
     public String name() {
-        return "<h1 style='color:green;background-color:black;'>Syed Mohiuddin";
+        return "<body style='background-color:black;'><h1 style='color:green;'>Syed Mohiuddin</body>";
     }
 
     @ResponseBody
     @GetMapping("/goku")
     public String goku() {
-        return "<h1 style='color:blue;background-color:green;'>Goku Amry";
+        return "<body style='background-color:black;'><h1 style='color:blue;background-color:green;'>Goku Amry</body>";
     }
     @ResponseBody
     @GetMapping("/haku")
     public String friend() {
        
-        return "<h1 style='color:red;background:clay;'>Mohd Abdul Hakeem";
+        return "<body style='background-color:black;'><h1 style='color:red;background:clay;'>Mohd Abdul Hakeem</body>";
     }
 }
