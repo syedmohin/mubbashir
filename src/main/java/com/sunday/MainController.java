@@ -30,7 +30,7 @@ public class MainController {
     @ResponseBody
     @GetMapping("/goku")
     public String goku() {
-        return "<body style='background-color:black;'><h1 style='color:blue;background-color:green;'>Goku Amry</body>";
+        return "<body style='background-color:black;'><h1 style='color:blue;`'>Goku Amry</body>";
     }
     @ResponseBody
     @GetMapping("/haku")
