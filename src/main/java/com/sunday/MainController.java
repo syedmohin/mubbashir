@@ -32,4 +32,10 @@ public class MainController {
     public String goku() {
         return "<h1>Goku Amry";
     }
+    @ResponseBody
+    @GetMapping("/haku")
+    public String friend() {
+        log.info("Calling Goku Army ");
+        return "<h1 style="color:red;">Mohd Abdul Hakeem";
+    }
 }
