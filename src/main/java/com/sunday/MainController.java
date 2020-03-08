@@ -36,6 +36,6 @@ public class MainController {
     @GetMapping("/haku")
     public String friend() {
         log.info("Calling Goku Army ");
-        return "<h1 style="color:red;">Mohd Abdul Hakeem";
+        return "<h1 style='color:red;'>Mohd Abdul Hakeem";
     }
 }
